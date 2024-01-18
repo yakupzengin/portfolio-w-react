@@ -1,5 +1,6 @@
 import Work1 from "../../assets/techical-service.jpg"
 import Work2 from "../../assets/work2.jpg"
+import Work3 from "../../assets/work3.jpg"
 export const projectsData = [
     {
         id:1,
@@ -9,11 +10,18 @@ export const projectsData = [
         href:"https://uk-technical-service.vercel.app"
     },
     {
-        id:6,
+        id:2,
         image:Work2,
         title: "Portfolio",
         category :"web",
         href:"/"
+    },
+    {
+        id:3,
+        image:Work3,
+        title: "Register Form",
+        category :"web",
+        href:"https://react-form-five-brown.vercel.app"
     },
 ]
 
